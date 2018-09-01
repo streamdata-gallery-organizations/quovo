@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Quovo
-x-complete: 1
+x-complete: 0
 info:
-  title: Quovo API v3
-  description: todo-add-description
+  title: Quovo Get a single institution
+  description: Provides information on a single Quovo-supported institution.
   version: 1.0.0
 host: example.com
 basePath: /
@@ -997,3 +998,17 @@ paths:
       tags:
       - Single
       - Institution
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
